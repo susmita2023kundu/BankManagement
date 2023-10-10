@@ -29,17 +29,12 @@ banking user by providing various ways to perform banking tasks. Also, to enable
 work space to have additional functionalities which are not provided under a conventional 
 banking project.
 
-
-
 ####AIM of this project
 The main aim of designing and developing this Internet banking System Java primarily based 
 Engineering project is to provide secure and efficient net banking facilities to the banking 
 customers over the internet. Apache Server Pages, MYSQL database used to develop this bank 
 application where all banking customers can login through the secured web page by their account 
 login id and password
-
-
-
 
 #####Methods
  We need to be able to generate an account number 
