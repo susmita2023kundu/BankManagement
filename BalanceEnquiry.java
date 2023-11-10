@@ -1,4 +1,3 @@
-
 package bank.mangement.system;
 import javax.swing.*;
 import java.awt.*;
@@ -50,7 +49,6 @@ public class BalanceEnquiry extends JFrame implements ActionListener{
          text.setForeground(Color.white);
          text.setBounds(170,300,400,30);
          image.add(text);
-         
          
          
           setSize(900,900);
