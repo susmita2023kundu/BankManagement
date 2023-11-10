@@ -1,6 +1,4 @@
-
 package bank.mangement.system;
-
 import javax.swing.*;
 import java .awt.*;
 import java.awt.event.*;
@@ -13,7 +11,7 @@ public class SignupThree extends JFrame  implements ActionListener{
     String formno;
 
     
-   SignupThree(String formno){
+       SignupThree(String formno){
        this.formno =formno;
        
        setLayout(null);
@@ -166,9 +164,9 @@ public class SignupThree extends JFrame  implements ActionListener{
        setLocation(350,0);
        setVisible(true);
        
-   }
+       }
    
-   public void actionPerformed(ActionEvent ae){
+       public void actionPerformed(ActionEvent ae){
        if (ae.getSource()==submit){
            String accountType =null;
            if(r1.isSelected()){
