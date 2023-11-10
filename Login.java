@@ -10,8 +10,7 @@ public class Login extends JFrame implements ActionListener{
     JTextField cardTextField;
     JPasswordField pinTextField;
 
-   Login(){
-       
+       Login(){
        setTitle("AUTOMATED TELLER MACHINE");
        setLayout(null);
        ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("icons/logo.jpg"));
@@ -73,7 +72,7 @@ public class Login extends JFrame implements ActionListener{
        setSize(800,40);
        setVisible(true);
        setLocation(350,200);
-   }
+       }
   public void actionPerformed(ActionEvent ae){
       if(ae.getSource() == clear){
           cardTextField.setText("");
