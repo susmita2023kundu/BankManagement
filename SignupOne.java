@@ -11,12 +11,11 @@ public class SignupOne extends JFrame implements ActionListener {
     long random;
     JTextField nameTextField, fnameTextField,dobTextField,emailTextField,addressTextField,cityTextField,stateTextField,pinTextField;
     JButton next;
-     JRadioButton male ,female,other,married,unmarried;
-     JDateChooser dateChooser;
+    JRadioButton male ,female,other,married,unmarried;
+    JDateChooser dateChooser;
  
 
-    SignupOne(){
-        
+        SignupOne(){
         setLayout(null);
         
          Random ran = new Random();
@@ -65,11 +64,7 @@ public class SignupOne extends JFrame implements ActionListener {
         dateChooser.setBounds(300,240,400,30);
         dateChooser.setForeground(new Color(000,000,000));
         add(dateChooser);
-        
-      
-        
-        
-        
+                   
         
         JLabel gender= new JLabel(" Gender:");
         gender.setFont(new Font("Raleway",Font.BOLD,20));
@@ -112,7 +107,7 @@ public class SignupOne extends JFrame implements ActionListener {
         add(marita);
         
         
-         married = new JRadioButton("Married");
+        married = new JRadioButton("Married");
         married.setBounds(300,390,100,30);
         married.setBackground(Color.WHITE);
         add(married);
@@ -123,7 +118,7 @@ public class SignupOne extends JFrame implements ActionListener {
         add(unmarried);
         
            
-         other = new JRadioButton("Other");
+        other = new JRadioButton("Other");
         other.setBounds(630,390,100,30);
         other.setBackground(Color.WHITE);
         add(other);
@@ -131,18 +126,18 @@ public class SignupOne extends JFrame implements ActionListener {
         ButtonGroup maritalgroup = new ButtonGroup();
         maritalgroup.add(married);
         maritalgroup.add(unmarried);
-         maritalgroup.add(other);
+        maritalgroup.add(other);
 
         
         
-         JLabel address= new JLabel(" Address:");
+        JLabel address= new JLabel(" Address:");
         address.setFont(new Font("Raleway",Font.BOLD,20));
         address.setBounds (100,440,200,30);
         add(address);
         
         
            
-         addressTextField = new JTextField();
+        addressTextField = new JTextField();
         addressTextField.setFont(new Font("Raleway",Font.BOLD,14));
         addressTextField.setBounds(300,440,400,30);
         add(addressTextField);
