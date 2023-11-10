@@ -9,8 +9,8 @@ Statement s;
     public Conn(){
         try{
            
-           c= DriverManager.getConnection("jdbc:mysql:///bankmanagementsystem", "root" , "Root@8250");
-            s = c.createStatement();
+          c= DriverManager.getConnection("jdbc:mysql:///bankmanagementsystem", "root" , "Root@8250");
+          s = c.createStatement();
             
         } catch (Exception e){
             System.out.println(e);
